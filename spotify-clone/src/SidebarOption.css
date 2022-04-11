@@ -7,6 +7,15 @@
   transition: 200ms color ease-in;
 }
 
+.sidebarOption::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+.sidebarOption::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 .sidebarOption:hover {
   color: white;
 }
